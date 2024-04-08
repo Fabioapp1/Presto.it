@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    --main-color:  #f4f4f4;
+    --title-color: #f75809;
+    --side-color: #514843;
+    --accept-color: #34a849;
+    --grey-color: #616161;
+}
+
+body {
+    background-color: var(--main-color);  
+}
+
+
+.text-primary-color {
+  color: var(--title-color);
+}
+
+.logo-img {
+    width: 55px;
+}
+
+
+.my-presto {
+    font-size: 30px;
+}
+
+.mynav-bg {
+    background-color: var(--main-color); 
+}
+
+.mybtn-nav {
+    font-size: 17px;
+    font-weight: 500;
+    text-shadow: 1px 5px 5px rgb(200, 169, 169);
+}
+
+.mylogo-nav {
+    border-radius: 22%;
+}
+
+.i-size {
+    font-size: 25px;
+    
+}
+
+.my-maintext {
+    text-shadow: 1px 5px 5px rgb(200, 169, 169);
+}
+
+.my-img {
+  opacity: 95%;
+  border-radius: 10%;
+  margin-top: 5%;
+}
+
+.img-work {
+    opacity: 95%;
+    border-radius: 10%;
+  }
+
+.my-card {
+    width: 350px;
+    max-height: 830px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-card-border{
+    border-radius: 10%;
+}
+
+.my-center{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+.my-card-img {
+    border-radius: 10%;
+    width: auto;
+    padding: 7%;
+    
+}
+
+.my-card-body {
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+
+.my-footer-title {
+    font-size: 14px;
+    text-shadow: 1px 5px 5px rgba(36, 35, 35, 0.283);
+    text-decoration: underline;
+}
+
+.footer-text {
+    font-size: 1rem;
+}
+
+
+.btn-accent {
+    background:
+    linear-gradient(to right, var(--title-color)2px, transparent 2px)0 0,
+    linear-gradient(to right, var(--title-color)2px, transparent 2px)0 100%,
+    linear-gradient(to left, var(--title-color)2px, transparent 2px)100% 0,
+    linear-gradient(to left, var(--title-color)2px, transparent 2px)100% 100%,
+    linear-gradient(to bottom, var(--title-color)2px, transparent 2px)0 0,
+    linear-gradient(to bottom, var(--title-color)2px, transparent 2px)100% 0,
+    linear-gradient(to top, var(--title-color)2px, transparent 2px)0 100%,
+    linear-gradient(to top, var(--title-color)2px, transparent 2px)100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    transition: 0.4s;
+    border: hidden;
+  }
+
+  .btn-accent:hover {
+    letter-spacing: 4px;
+    background-color:rgba(234, 28, 28, 0.112);
+  }
+
+
+  .btn-red {
+    background:
+    linear-gradient(to right, var(--title-color)2px, transparent 2px)0 0,
+    linear-gradient(to right, var(--title-color)2px, transparent 2px)0 100%,
+    linear-gradient(to left, var(--title-color)2px, transparent 2px)100% 0,
+    linear-gradient(to left, var(--title-color)2px, transparent 2px)100% 100%,
+    linear-gradient(to bottom, var(--title-color)2px, transparent 2px)0 0,
+    linear-gradient(to bottom, var(--title-color)2px, transparent 2px)100% 0,
+    linear-gradient(to top, var(--title-color)2px, transparent 2px)0 100%,
+    linear-gradient(to top, var(--title-color)2px, transparent 2px)100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    transition: 0.4s;
+    border: hidden;
+  }
+
+  .btn-red:hover {
+    background-color:rgba(234, 28, 28, 0.112);
+  }
+
+
+  .btn-green {
+    background:
+    linear-gradient(to right, var(--accept-color)2px, transparent 2px)0 0,
+    linear-gradient(to right, var(--accept-color)2px, transparent 2px)0 100%,
+    linear-gradient(to left, var(--accept-color)2px, transparent 2px)100% 0,
+    linear-gradient(to left, var(--accept-color)2px, transparent 2px)100% 100%,
+    linear-gradient(to bottom, var(--accept-color)2px, transparent 2px)0 0,
+    linear-gradient(to bottom, var(--accept-color)2px, transparent 2px)100% 0,
+    linear-gradient(to top, var(--accept-color)2px, transparent 2px)0 100%,
+    linear-gradient(to top, var(--accept-color)2px, transparent 2px)100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    transition: 0.4s;
+    border: hidden;
+  }
+
+  .btn-green:hover {
+    letter-spacing: 4px;
+    background-color:rgba(12, 218, 60, 0.112);
+  }
+
+
+
+
+  .btn-grey {
+    background:
+    linear-gradient(to right, var(--grey-color)2px, transparent 2px)0 0,
+    linear-gradient(to right, var(--grey-color)2px, transparent 2px)0 100%,
+    linear-gradient(to left, var(--grey-color)2px, transparent 2px)100% 0,
+    linear-gradient(to left, var(--grey-color)2px, transparent 2px)100% 100%,
+    linear-gradient(to bottom, var(--grey-color)2px, transparent 2px)0 0,
+    linear-gradient(to bottom, var(--grey-color)2px, transparent 2px)100% 0,
+    linear-gradient(to top, var(--grey-color)2px, transparent 2px)0 100%,
+    linear-gradient(to top, var(--grey-color)2px, transparent 2px)100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    transition: 0.4s;
+    border: hidden;
+  }
+
+  .btn-grey:hover {
+    background-color:rgba(29, 28, 28, 0.112);
+  }
+
+
+
+  .container-top {
+    padding-top: 100px;
+  }
+
+  .aos-init[data-aos].aos-animate {
+    transform: unset;
+ }
+
+
+.my-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.btn .badge {
+    top: -5px;
+    left: 5px;
+}
+
+.badge {
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+
+.btn-flag {
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.my-description {
+  text-shadow: 1px 5px 5px rgb(200, 169, 169);
+}
+
+.my-hr {
+  text-decoration: dotted;
+  opacity: 10%;
+  width: 100%;
+}
+
+.carousel-container {
+  width: 80%; /* Larghezza desiderata */
+  height: auto; /* Altezza automatica o specifica */
+  margin: 0 auto; /* Centra il carosello */
+}
+
+.carousel-container img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.my-card-revisor {
+  border: transparent;
+}
+
+.icon-user-text {
+  font-size: 0.75rem;;
+}
+
+/* Stili per smartphone */
+@media only screen and (max-width: 991px) {
+  /* Inserisci qui i tuoi stili per smartphone */
+
+  /* Nascondi gli elementi destinati a tablet e desktop */
+  .tablet-desktop-only {
+    display: none!important;
+  }
+
+  .margin-search {
+    padding: 15px 0 15px 0;
+  }
+  .carousel-container {
+    width: 100%;
+  }
+
+  .force-right {
+    right: 0;
+    left: auto!important;
+  }
+}
+
+
+
+.my-search-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+/* Stili per tablet e desktop */
+@media only screen and (min-width: 992px) {
+
+  /* Nascondi gli elementi destinati agli smartphone */
+  .smartphone-only {
+    display: none;
+  }
+
+  .margin-nabvar {
+    padding: 15px 0 15px 0;
+  }
+}
