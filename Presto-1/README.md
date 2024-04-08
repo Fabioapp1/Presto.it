@@ -3,31 +3,6 @@
 </p>
 
 
-## Il team The Minimalist
-<p>
-Olivia Marie Subilia<br>
-<a href="https://github.com/Olliesubilia"><img src="https://avatars.githubusercontent.com/u/146471264?v=4" width="200px" alt="Olivia Marie Subilia"></a><br>
-Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia
-</p>
-
-<p>
-Alessandro Magi<br>
-<a href="https://github.com/alessandro-magi" alt="Alessandro Magi"><img src="https://avatars.githubusercontent.com/u/22619013?v=4" alt="Alessandro Magi" width="200px" ></a><br>
-Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia
-</p>
-
-<p>
-Michele Siddi<br>
-<a href="https://github.com/MicheleSidd"><img src="https://avatars.githubusercontent.com/u/146471198?v=4" width="200px"alt="Michele Siddi"></a><br>
-Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia
-</p>
-
-<p>
-Fabio Appezzato<br>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://avatars.githubusercontent.com/u/146471748?v=4" alt="Fabio Appezzato" width="200px"></a><br>
-Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia Bio Olivia
-</p>
-
 ## Stack tecnologico
 
 <p>Front-end</p>
